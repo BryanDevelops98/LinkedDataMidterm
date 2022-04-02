@@ -1,0 +1,46 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix univ: <http://www.cs.ccsu.edu/~neli/university.owl#>.
+@prefix ex: <http://example.org/#>.
+@prefix : <http://www.cs.ccsu.edu/~neli/university.owl#>.
+
+
+
+ex:Director1  rdf:type "Director";
+	foaf:name "Fred";
+	foaf:family_name "Guiol";
+	univ:directsMovie "Giant";
+    :starring "ElizabethTaylor";
+	:year "1956".
+	
+
+ex:Director2	rdf:type "Director";
+	foaf:name "Elia";
+	foaf:family_name "Kazan";
+	univ:directsMovie "EastofEden";
+    :starring "JulieHarris";
+	:year "1955".
+	
+
+ex:Director3	rdf:type "Director";
+	foaf:name "George";
+	foaf:family_name "Cukor";
+	univ:directsMovie "ItShouldHappentoYou";
+    :starring "JudyHolliday";
+	:year "1954".
+	
+
+ex:Director4	rdf:type "Director";
+	foaf:name "John";
+	foaf:family_name "Ford";
+	univ:directsMovie "TheSearchers";
+    :starring "JohnWayne";
+	:year "1956".
+	
+
+ex:Director5	rdf:type "Director";
+	foaf:name "Nicholas";
+	foaf:family_name "Ray";
+	univ:directsMovie "RebelWithoutACause";
+    :starring "JamesDean";
+	:year "1955".
